@@ -33,7 +33,7 @@ Before the training process starts, we do need to do some data augmentation to t
 After the training, we will evaluate the programing by comparing not only the prediction accuracy and loss, but also the performance of the Network such as time efficiency and if the model is overfitting. The specific performance of overfitting is as follows: the model has a small loss function on the training data and a high prediction accuracy; but the test function has a large loss function and the prediction accuracy is low. Therefore, the overfitting models are not usable. By applying or not applying the dropout and data augmentation, we will find different results, and we will summarize them and find the best among them.
 
 
-## Reslult:
+## Result:
 
 ### ALexnet
 <p align="center">
