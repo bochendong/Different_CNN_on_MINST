@@ -17,7 +17,19 @@ The main work of the network is to prove that increasing the depth of the networ
 depth of the network to ensure that learning is more complicated Mode, and the cost is relatively small. While VGG consumes more computing resources and uses more parameters, resulting in more memory usage. Most of the parameters are from the first fully connected layer. In conclusion, the author found through the network A and A-LRN that the local response normalization (LRN) layer used by AlexNet had no performance improvement. Moreover, with the increase of depth, the classification performance will also get
 better. Lastly, the author found that multiple small convolution kernels have better performance than single large convolution kernels. The author did an experiment to compare B with one of his shallower networks not in the experimental group. The shallower network uses conv5x5 instead of B’s two conv3x3, and multiple small convolution kernels perform better than one single large convolution kernel. 
 
-## GoogleNet
+### GoogleNet
 
 GoogleNet Structures such as AlexNet and VGG all obtain better training results by increasing the depth (number
 of layers) of the network, but increasing the number of layers could also bring many negative effects, such as overfit, gradient disappearance, gradient explosion, etc. Inception is proposed to improve training results from another perspective: it can use computing resources more efficiently, and more features can be extracted under the same amount of calculation, thereby improving training results.
+
+## Evaluation Method
+The data set we are using is called MNIST (Mixed National Institute of Standards and Technology database), which is a large database of handwritten numbers collected by the National Institute of Standards and Technology, containing a training set of 60,000 examples and a test set of 10,000 examples. For more than ten years, researchers from the fields of machine learning, machine vision, artificial intelligence, and deep learning have used this data set as one of the benchmarks for measuring algorithms. It can be found in many conferences and journal papers. In fact, the MNIST data set has become one of the must-have data sets for algorithm authors. Someone once ridiculed: ”If an algorithm does not work in MNIST, then it will not work at all; and if it works on MNIST, it may not work on other data.” 
+
+Before the training process starts, we do need to do some data augmentation to the existing data set, which includes rotation, noise adding and so on. In any case, the neural network will treat these slightly adjusted images as different images. Convolutional neural networks can classify objects robustly, even if the objects are placed in different directions, which is called the invariant property. More specifically, the convolutional neural network can stably respond to changes in image translation, image viewing angle, image size, or lighting conditions. This is actually the logical premise of image enhancement. In real work, we may get a data set in which the images are taken in some cases, but the target application is in many cases, such as different directions, positions, sizes, brightness, etc. We will train the neural network with additional revised data to deal with these situations.
+
+After the training, we will evaluate the programing by comparing not only the prediction accuracy and loss, but also the performance of the Network such as time efficiency and if the model is overfitting. The specific performance of overfitting is as follows: the model has a small loss function on the training data and a high prediction accuracy; but the test function has a large loss function and the prediction accuracy is low. Therefore, the overfitting models are not usable. By applying or not applying the dropout and data augmentation, we will find different results, and we will summarize them and find the best among them.
+
+
+## Reslult:
+## ALexnet
+
