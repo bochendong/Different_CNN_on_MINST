@@ -35,15 +35,22 @@ After the training, we will evaluate the programing by comparing not only the pr
 
 ## Result:
 
+Note that the red curve means dropout rate = 0, the blue curve means dropout = 0.3, the cyan-blue curve means dropout = 0.5, the green curve means dropout = 0.7, the black curve means dropout = 0.9
 ### ALexnet
+#### With data argumentation
 <p align="center">
 	<img src="https://github.com/bochendong/Different_CNN_on_MINST/raw/master/image/alex_1.png"
         width="1500" height="600">
 	<p align="center">
 </p>
+#### Without data argumentation
 <p align="center">
 	<img src="https://github.com/bochendong/Different_CNN_on_MINST/raw/master/image/alex2.png"
         width="1500" height="600">
 	<p align="center">
 </p>
+
+### VGG
+
+### GoogleNet
 
