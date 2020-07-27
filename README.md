@@ -35,12 +35,12 @@ After the training, we will evaluate the programing by comparing not only the pr
 ### ALexnet
 <p align="center">
 	<img src="https://github.com/bochendong/Different_CNN_on_MINST/raw/master/image/Figure_1.png"
-        width="900" height="600">
+        width="1200" height="600">
 	<p align="center">
 </p>
 <p align="center">
 	<img src="https://github.com/bochendong/Different_CNN_on_MINST/raw/master/image/Figure_2.png"
-        width="900" height="600">
+        width="1200" height="600">
 	<p align="center">
 </p>
 
