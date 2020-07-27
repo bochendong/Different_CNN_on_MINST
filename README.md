@@ -43,6 +43,7 @@ Note that the red curve means dropout rate = 0, the blue curve means dropout = 0
         width="1500" height="600">
 	<p align="center">
 </p>
+
 #### Without data argumentation
 <p align="center">
 	<img src="https://github.com/bochendong/Different_CNN_on_MINST/raw/master/image/alex2.png"
