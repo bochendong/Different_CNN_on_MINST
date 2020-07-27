@@ -1,5 +1,8 @@
 # Different_CNN_on_MINST
-
+* [Introdcution](https://github.com/bochendong/Different_CNN_on_MINST#introdcution)
+* [Related Work](https://github.com/bochendong/Different_CNN_on_MINST#related-work)
+* [Evaluation Method](https://github.com/bochendong/Different_CNN_on_MINST#evaluation-method)
+* [Result](https://github.com/bochendong/Different_CNN_on_MINST#result)
 
 ## Introdcution:
 In our project, we would like to compare different CNN architectures such as ALEXNET, VGGNet, and GOOGLENET on MINST data set, a large database of hand- written digits. After trying each of the architectures, we would compare each of their results based on training set size, test error, and efficiency. We would then perform data augmentation to compare based on robustness. In addition, we will observe the properties of each architecture that lead it to its results. Finally, we will try to implement our own program to achieve a similar result. CNNs are used today for many applications such as facial recognition and document analysis.
